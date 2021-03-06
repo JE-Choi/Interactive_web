@@ -9,3 +9,8 @@
 <h3>(실습) 예제사이트2</h3>
 
 ![GIF](https://user-images.githubusercontent.com/49062052/110212210-9fdf0f00-7edd-11eb-9c42-2f8628d1351b.gif)
+
+<h3>transform<: scale연습/h3>
+  
+ ![GIF](https://user-images.githubusercontent.com/49062052/110214185-dc633880-7ee6-11eb-844b-d415b7a841e0.gif)
+
