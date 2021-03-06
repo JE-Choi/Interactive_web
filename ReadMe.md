@@ -6,3 +6,6 @@
 
 ![GIF3](https://user-images.githubusercontent.com/49062052/110211563-72449680-7eda-11eb-8006-c34bdcb07647.gif)
 
+<h3>(실습) 예제사이트2</h3>
+
+![GIF](https://user-images.githubusercontent.com/49062052/110212210-9fdf0f00-7edd-11eb-9c42-2f8628d1351b.gif)
