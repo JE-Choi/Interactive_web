@@ -21,14 +21,38 @@
             background-color: pink;
             top: 0;
             left: 0;
+            margin: -50px 0 0 -50px;
             border-radius: 50%;
+            /* transition: all 1s ease; */
+            /* transition: all 1s ease-in-out; */
+            /* https://matthewlein.com/tools/ceaser */
+            /* easing (가속도) */
+            transition: all 1s cubic-bezier(0.325, -0.360, 0.580, 1.305);
+        }
+        button{
+            font-size: 40px;
+            font-weight: bold;
+            background-color: #fff;
+            padding: 30px 80px;
+            margin: 50ox;
+            cursor: pointer;   
+            /* 모든 변화를 컨트롤하는 듯. */
+            transition: all 1s ease;
+        }
+        button:hover{
+            background-color: rgb(255, 125, 125);
+            color: #fff;
+            font-size: 100px;
+            padding: 100px 120px;
         }
     </style>
     <!-- <script src="./dist/mouseMove.js" type="module"></script> -->
-    <script src="./dist/requestAnimationFrame (loop, 자연스러운 움직임).js"  type="module"></script>
+    <!-- <script src="./dist/requestAnimationFrame (loop, 자연스러운 움직임).js"  type="module"></script> -->
+    <script src="./dist/transition, easing (가속도).js"  type="module"></script>
 </head>
 <body>
     <h1>Test</h1>
     <div class="cursor_item"></div>
+    <button>START</button>
 </body>
 </html>
