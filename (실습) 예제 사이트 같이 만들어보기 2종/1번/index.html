@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(80, 80, 80);
+            overflow: hidden;
+        }
+        h1{
+            color: blanchedalmond;
+        }
+        .human{
+            position: absolute;
+            /* 가운데에 넣고 싶음. */
+            left: calc(50% - 150px);
+            width: 300px;
+            z-index: 100;
+        }
+    </style>
+    <script type="module" src="./dist/script.js"></script>
+</head>
+<body>
+  <h1>Test</h1>  
+  <img src="./img/layer-7.png" class="human" alt="human">
+  <img src="./img/layer-1.jpg" alt="벽" class="bg">
+</body>
+</html>
