@@ -14,3 +14,6 @@
   
  ![GIF](https://user-images.githubusercontent.com/49062052/110214185-dc633880-7ee6-11eb-844b-d415b7a841e0.gif)
 
+<h3>가로진행바</h3>
+
+![스크롤](https://user-images.githubusercontent.com/49062052/110245712-c0739b80-7fa7-11eb-9f14-64641b821485.gif)
