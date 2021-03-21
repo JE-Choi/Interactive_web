@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* 타이틀 헤더 영역 */
+section.titleWrap {
+    height: 800px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+section.titleWrap>.title{
+    font-family: 'Nanum Myeongjo', serif;
+    width: 100%;
+    font-size: 50px;
+    position: absolute;
+    color: #eee;
+    text-align: center;
+    padding-top: 320px;
+}
+section.titleWrap>.subTitle{
+    font-family: 'Nanum Myeongjo', serif;
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    color: #eee;
+    text-align: center;
+    padding-top: 400px;
+}
+/* 커버영역 */
+.cover, 
+.coverImg {
+    position: fixed;
+    width: 100%;
+    height: 800px;
+}
+.cover {
+    background-color: rgba(0,0,0,1);
+}
+.coverImg{
+    background: url(../bg.JPG) center center / cover no-repeat;
+}
+
+/* 본문 영역 */
+section.textWrap {
+position: relative;
+top: 800px;
+width: 100%;
+padding-top: 100px;
+background-color: #fff;
+}
+.innerWrap {
+width: 80%;
+margin: 0 auto;
+}
+p {
+color: #111;
+font-size: 15px;
+line-height: 28px;
+margin-bottom: 80px;
+}
+@media (max-width: 800px){
+    section.titleWrap>.title{
+        font-size: 30px;
+        padding-top: 30%;
+        left: 10%;
+        text-align: left;
+    }
+    section.titleWrap>.subTitle{
+        font-size: 20px;
+        padding-top: 40%;
+        left: 10%;
+        text-align: left;
+    }
+}
+/* 상단 프로그래스 */
+.progress {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 3px;
+background-color: white;
+z-index: 1;
+}
+.bar{
+position: absolute;
+top: 0;
+left: 0;
+width: 0%;
+height: 3px;
+background-color: black;
+z-index: 1;
+}
