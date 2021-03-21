@@ -18,8 +18,12 @@
 
 ![스크롤](https://user-images.githubusercontent.com/49062052/110245712-c0739b80-7fa7-11eb-9f14-64641b821485.gif)
 
-<h3></h3>
+<h3>브런치</h3>
 
 ![브런치1](https://user-images.githubusercontent.com/49062052/111907253-d8631900-8a97-11eb-9c90-7d6299a98ea2.gif)
 
+
+<h3>패럴렉스</h3>
+
+![패럴렉스](https://user-images.githubusercontent.com/49062052/111910455-c63ba780-8aa4-11eb-857e-b160e80d44db.gif)
 
