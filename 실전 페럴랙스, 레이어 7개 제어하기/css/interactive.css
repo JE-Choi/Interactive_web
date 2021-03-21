@@ -1,6 +1,6 @@
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   body{
@@ -35,20 +35,14 @@
       width: 100%;
   }
 
+  .cover {
+    background-color: rgba(0,0,0,1);
+}
+
   section.mainPage{
       background: linear-gradient(#4b0220, #691c46);
       /* padding-bottom: 50px; */
   }
-
-  /* section.mainPage h1.title {
-    position: fixed;
-    text-align: center;
-    color: #fff;
-    font-size: 2.7rem;
-    padding-top: 20vh;
-    width: 400px;
-    left: calc(50% - 200px);
-  } */
 
   section.mainPage .imageWrap{
     height: 1000px;
@@ -94,7 +88,7 @@
   }
 
   
-section.subPage #parallax_6 {
+section.subPage .parallax_6 {
     position: relative;
     background: url(../image/main_6.png) bottom center no-repeat;
     background-size: auto 1100px;
