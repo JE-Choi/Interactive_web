@@ -1,0 +1,130 @@
+$dark-blue: #222;
+$green: #90feb5;
+$action-color: $green;
+
+* {
+  box-sizing: border-box;
+}
+
+.plugin_pagetree_children_list:nth-child(1){
+    animation: hue-rotate 3s linear infinite;
+}
+
+.button {
+  -webkit-font-smoothing: antialiased;
+  background-color: $dark-blue;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 1px;
+  color: white;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-out;
+
+  &:hover {
+    background-color: $action-color;
+    color: #fff;
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &--bubble {
+    position: relative;
+    z-index: 2;
+    color: white;
+    background: $dark-blue;
+
+    &:hover {
+    background: darken($action-color, 15%);
+    }
+
+    //버튼 주변 동그라미 색
+    &:hover + .button--bubble__effect-container .circle {
+      background: darken($action-color, 15%);
+    }
+
+    // 클릭했을 때, 크기 조금 줄임.
+    &:active{
+      transform: scale(0.95) !important;
+    }
+
+    &__container {
+      position: relative;
+      display: inline-block;
+    }
+  }
+}
+
+.button--bubble__effect-container {
+  position: absolute;
+  display: block;
+  width: 200%;
+  height: 400%;
+  top: -150%;
+  left: -50%;
+  transition: all 0.1s ease-out;
+  pointer-events: none;
+
+  .circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background: $dark-blue;
+
+    &.top-left {
+        top: 40%;
+        right: 35%;
+    }
+
+    &.bottom-right {
+        bottom: 40%;
+        right: 27%;
+    }
+  }
+}
+
+// 정가운데로
+html, body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+// 화면 정 가운데로
+.button--bubble__container {
+//   top: 10%;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+// 색변경
+@keyframes hue-rotate {
+      from {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+      }
+      to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+      }
+}
+
+.massage{
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
